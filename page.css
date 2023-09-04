@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(252, 249, 249);
+    color: rgb(0, 226, 218);
+}
+#header{
+    padding: 20px 2%;
+    width: 100%;
+    height: 70vh;
+    background-image: url(image/1express.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    padding: 10px 10%;
+}
+.container p{
+    font-size: 60px;
+    margin-top: 10%;
+    text-align: center;
+}
+.container h4{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(246, 204, 204);
+}
+.btn{
+    display: block;
+    margin-top: 10px;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #000000;
+    padding: 0.75rem 1.2rem;
+    border-radius: 45px;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    transition: background 0.1s;
+    background-color: #0f866c;
+}
+.btn:hover{
+    background-color: #f2f2f2;
+}
+h5{
+    margin-top: 3px;
+    font-size: 10px;
+    text-align: center;
+}
