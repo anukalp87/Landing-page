@@ -230,3 +230,56 @@ h5{
     padding: 14px 50px;
     
 }
+/* ---------css for small screen------------------- */
+nav .fa-solid{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #header{
+        margin-right: -50px;
+        margin-top: 16%;
+        font-size: 16px;
+    }
+    
+    #header img{
+        margin-left: 0%;
+        width: 50%;
+    }
+    .container h4{
+        font-size: 20px;
+    }
+    .container p{
+        font-size: 10px;
+    }
+    .secure-1, .secure-2{
+        flex-basis: 90%;
+    }
+    .secure-2 h1{
+        font-size: 25px;
+    }
+    .secure-2 p{
+        font-size: 14px;
+    }
+    
+    .safer-1, .safer-2{
+        flex-basis: 90%;
+    }
+    .safer-1 h1{
+        font-size: 25px;
+    }
+    .safer-1{
+        margin-top: auto;
+    }
+    .safer-1 p{
+        font-size: 14px;
+    }
+    .device-1, .device-2{
+        flex-basis: 90%;
+    }
+    .device-2 h1{
+        font-size: 25px;
+    }
+    .device-2 p{
+        font-size: 14px;
+    }
+}
