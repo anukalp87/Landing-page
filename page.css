@@ -16,6 +16,12 @@ body{
     background-position: center;
     background-size: cover;
 }
+#header img{
+    height: 10%;
+    width: 20%;
+    border-radius: 45px;
+    font-size: 20px;
+}
 .container{
     padding: 10px 10%;
 }
@@ -34,7 +40,6 @@ body{
     margin-top: 10px;
     margin: 50px auto;
     width: fit-content;
-    /* padding: 10px 10%; */
     border: 1px solid #000000;
     padding: 0.75rem 1.2rem;
     border-radius: 45px;
@@ -83,17 +88,15 @@ h5{
 }
 #safer{
     padding: 80px 7%;
-    color: black;
 }
 .safer-1{
-    margin-top: 20px;
+    margin-top: auto;
     flex-basis: 60%;
 }
 .safer-1 p{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(0, 226, 218);
 }
 .safer-2{
     flex-basis: 30%;
@@ -136,10 +139,13 @@ h5{
     width: fit-content;
     padding: 14px 50px;
 }
+h3{
+    font-size: 25px;
+    text-align: center;
+}
 #second{
-    margin-top: 5px;
-    padding: 80px 7%;
-    color: black;
+    padding: 20px 7%;
+    margin-top: 2px;
 }
 .part{
     display: flex;
@@ -147,72 +153,58 @@ h5{
     flex-wrap: wrap;
 }
 .second-1{
-    flex-basis: 10%;
-}
-.second-1 h3{
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-}
-.second-1 p{
-    margin-top: 10px;
-    text-align: center;
-    color: white;
+    flex-basis: 30%;
 }
 .second-1 img{
-    display: flex;
-    margin-top: 10px;
-    width: fit-content;
-    /* border: 1px solid #000000; */
-    padding: 80px 7%;
-    border-radius: 90px;
-    text-align: left;
-    color: rgb(3, 3, 3);
+    width: 100%;
+    border-radius: 5px;
 }
 .second-2{
-    flex-basis: 10%;
-}
-.second-2 h3{
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-}
-.second-2 p{
-    margin-top: 10px;
-    text-align: center;
-    color: white;
+    flex-basis: 30%;
 }
 .second-2 img{
-    display: flex;
-    margin-top: 10px;
-    width: fit-content;
-    /* border: 1px solid #000000; */
-    padding: 80px 7%;
-    border-radius: 90px;
-    text-align: left;
-    color: rgb(3, 3, 3);
+    width: 90%;
+    border-radius: 50px;
 }
 .second-3{
-    flex-basis: 10%;
-}
-.second-3 h3{
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-}
-.second-3 p{
-    margin-top: 10px;
-    text-align: center;
-    color: white;
+    flex-basis: 30%;
 }
 .second-3 img{
-    display: flex;
-    margin-top: 10px;
-    width: fit-content;
-    padding: 80px 7%;
-    border-radius: 90px;
-    text-align: left;
-    color: rgb(3, 3, 3);
+    width: 90%;
+    border-radius: 50px;
+}
+#third{
+    padding: 10px 5px;
+}
+.third-1{
+    flex-basis: 35%;
+}
+.third-2{
+    flex-basis: 32%;
+}
+.third-3{
+    flex-basis: 32%;
+}
+#four{
+    padding: 0px 0px;
+}
+.four-1{
+    flex-basis: 35%;
+}
+.four-2{
+    flex-basis: 32%;
+}
+.four-3{
+    flex-basis: 32%;
+}
+.four-1 p{
+    font-size: 14px;
+}
+.four-2 p{
+    font-size: 14px;
+}
+.four-3 p{
+    font-size: 14px;
 }
 #final{
     padding: 20px 2%;
@@ -235,12 +227,13 @@ nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    #header{
-        margin-right: -50px;
-        margin-top: 16%;
-        font-size: 16px;
-    }
     
+    #header{
+        width: 100%;
+        font-size: 16px;
+        background-size: 100% 100%;
+        height: 100%;
+    }
     #header img{
         margin-left: 0%;
         width: 50%;
@@ -282,4 +275,11 @@ nav .fa-solid{
     .device-2 p{
         font-size: 14px;
     }
+    .second-1, .second-2, .second-3{
+        flex-basis: 90%;
+    }
+    /* #final{
+        background-size: 100% 100%;
+        height: 100%;
+    } */
 }
